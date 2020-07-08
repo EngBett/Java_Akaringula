@@ -16,12 +16,6 @@ public class Akaringula {
 
     public void Play() throws InterruptedException {
 
-
-        for (int i = 0; i < playerPopulation; i++) {
-             pla
-        }
-
-
         int player = 0;
 
         int i = 0;
