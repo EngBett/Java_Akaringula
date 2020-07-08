@@ -26,7 +26,7 @@ public class Akaringula {
                 patner -= playerPopulation;
             }
 
-            
+
             TimeUnit.MILLISECONDS.sleep(1700);
             System.out.println("Slappers : { "+player+" , "+patner+" } - AKARINGULA!!!");
 
