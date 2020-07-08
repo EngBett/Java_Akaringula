@@ -11,7 +11,6 @@ public class Akaringula {
         this.playerPopulation = playerPopulation;
         this.loops=loops;
 
-
     }
 
     public void Play() throws InterruptedException {
