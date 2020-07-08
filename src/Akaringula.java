@@ -3,19 +3,25 @@ import java.util.List;
 import java.util.concurrent.TimeUnit;
 
 public class Akaringula {
-    private List<Integer> players = new ArrayList<>();
-    private int playerPopulation, loops;
+    private final int playerPopulation;
+    private final int loops;
 
     public Akaringula(int playerPopulation, int loops){
+
         this.playerPopulation = playerPopulation;
         this.loops=loops;
+
+
+    }
+
+    public void Play() throws InterruptedException {
+        List<Integer> players;
 
         for (int i = 0; i < playerPopulation; i++) {
             players.add(i);
         }
-    }
 
-    public void Play() throws InterruptedException {
+
         int player = 0;
 
         int i = 0;
