@@ -15,7 +15,7 @@ public class Akaringula {
     }
 
     public void Play() throws InterruptedException {
-        List<Integer> players;
+
 
         for (int i = 0; i < playerPopulation; i++) {
             players.add(i);
