@@ -18,7 +18,7 @@ public class Akaringula {
 
 
         for (int i = 0; i < playerPopulation; i++) {
-            players.add(i);
+             players.add(i);
         }
 
 
